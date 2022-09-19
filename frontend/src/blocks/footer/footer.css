@@ -1,0 +1,21 @@
+.footer {
+  margin: 67px auto 0;
+  padding: 0 0 60px;
+  max-width: 880px;
+  width: 100%;
+  display: flex;
+  justify-items: start;
+  /*border: 1px solid green;*/
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100vw - 38px);
+    margin: 48px auto 36px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}

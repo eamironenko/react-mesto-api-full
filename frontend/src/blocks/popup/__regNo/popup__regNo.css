@@ -1,0 +1,7 @@
+.popup__regNo {
+  width: 120px;
+  height: 120px;
+  margin: 30px auto 32px;
+  background-image: url(../../../images/RegNo.svg);
+  background-size: 100% 100%;
+}

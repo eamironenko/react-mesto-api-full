@@ -1,0 +1,8 @@
+.popup__save-button_auth {
+  margin: 216px auto 0;
+  width: 28%;
+  width: 358px;
+  background: #ffffff;
+  color: #000000;
+  transition: opacity 0.5s ease-in-out;
+}

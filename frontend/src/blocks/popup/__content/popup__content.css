@@ -1,0 +1,13 @@
+.popup__content {
+  padding: 0;
+  margin: 30px auto 37px;
+  width: calc(100% - 72px);
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__content {
+    width: calc(100% - 44px);
+    margin: 25px auto;
+  }
+}
