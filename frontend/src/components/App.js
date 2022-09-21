@@ -154,6 +154,7 @@ function App() {
     return auth.register(email, password)
       .then((res) => {
         if (res.error) {
+          setMessage(res.error);
           setRejigged(false);
           history.push('/sign-up')
         } else {
@@ -164,7 +165,7 @@ function App() {
       })
       .catch((err) => { 
         console.log(err);
-        setMessage(err);
+        
       })
       .finally(() => { setIsInfoTooltip(true)})
   }

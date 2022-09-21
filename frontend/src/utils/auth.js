@@ -34,7 +34,7 @@ export const authorize = (email, password) => {
         headers: {
             Accept: "application/json",
             'Content-Type': 'application/json',
-            Authorization: `Bearer ${localStorage.getItem('jwt')}`
+            /*Authorization: `Bearer ${localStorage.getItem('jwt')}`*/
         },
         body: JSON.stringify({ password, email })
     })
@@ -45,7 +45,6 @@ export const authorize = (email, password) => {
 
 export const checkToken = (token) => {
     return fetch(`${BASE_URL}/users/me`, {
-        credentials: 'include',
         method: 'GET',
         headers: {
             Accept: "application/json",

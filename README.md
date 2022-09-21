@@ -3,3 +3,6 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 https://mironenko.students.nomoredomains.sbs/
+https://api.mironenko.students.nomoredomains.sbs/
+Публичный ip: 51.250.66.8
+
