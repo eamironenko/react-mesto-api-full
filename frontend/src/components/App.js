@@ -180,9 +180,11 @@ function App() {
           history.push('/');
         } else {
           setLoginErr(true);
+          setLoggedIn(false);
         }
       })
       .catch((err) => { console.log(err) })
+      .finally(() => { setIsInfoTooltip(true)})
   }
 
   const setStatusToken = (jwt) => {
